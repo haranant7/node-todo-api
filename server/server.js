@@ -26,34 +26,5 @@ app.post('/todos',(req,res)=>{
 app.listen(3000,()=>{
     console.log("Started on port 3000");
 });
-// var newTodo = new Todo({
-//     text : 'Cook dinner'
-// });
-//
-// newTodo.save().then((doc)=>{
-//     console.log('Saved Todo',doc);
-// },(e)=>{
-//     console.log('Unable to save Todo');
-// });
 
-// var otherTodo = new Todo({
-//     text : 'Edit this video'
-// });
-//
-// otherTodo.save().then((doc)=>{
-//     console.log('Saved Todo',doc);
-// },(e)=>{
-//     console.log('Unable to save Todo');
-// });
-
-
-
-// var user = new User({
-//     email:'user@example.com'
-// });
-//
-// user.save().then((doc)=>{
-//     console.log('User Saved',doc);
-// },(e)=>{
-//     console.log('Unable to save user',e);
-// });
+module.exports = {app};
